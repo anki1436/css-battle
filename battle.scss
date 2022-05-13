@@ -62,7 +62,7 @@ transition: 500ms ease;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px 30px;
-    gap: 10px;
+    gap: 20px;
     min-height: 100vh;
     max-width: 1300px;
     margin: 0 auto;
@@ -634,7 +634,7 @@ background:#0B2429;
       height:50px;
       background:#998235;
       top:0px;
-      left:-75px;
+      left:-74px;
       transform:rotate(90deg)skew(-45deg);
     }
     &::before{
@@ -650,3 +650,39 @@ background:#0B2429;
   }
 
 }
+.battle-22{
+  background:#F5D6B4;
+  position:relative;
+  div {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background: #D86F45;
+    border-radius:100%;  
+
+    &:nth-child(1){
+      top:107px;
+     left:92px;
+    
+     &::before{
+      content:"";
+      position:absolute;
+      width:200px;
+      height:50px;
+      background:#D86F45;
+      bottom:0;
+      left:0;
+      border-radius:0 50px 50px 100px;
+     }
+   }  
+     &:nth-child(2)
+   {
+      top:67px;
+     right:127px;
+     
+   }
+
+  }
+}
+
+

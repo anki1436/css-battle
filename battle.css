@@ -65,7 +65,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px 30px;
-  gap: 10px;
+  gap: 20px;
   min-height: 100vh;
   max-width: 1300px;
   margin: 0 auto;
@@ -668,7 +668,7 @@ h1 {
   height: 50px;
   background: #998235;
   top: 0px;
-  left: -75px;
+  left: -74px;
   transform: rotate(90deg) skew(-45deg);
 }
 
@@ -681,4 +681,38 @@ h1 {
   top: -50px;
   left: -25px;
   transform: skew(45deg);
+}
+
+.battle-22 {
+  background: #F5D6B4;
+  position: relative;
+}
+
+.battle-22 div {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #D86F45;
+  border-radius: 100%;
+}
+
+.battle-22 div:nth-child(1) {
+  top: 107px;
+  left: 92px;
+}
+
+.battle-22 div:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background: #D86F45;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 50px 50px 100px;
+}
+
+.battle-22 div:nth-child(2) {
+  top: 67px;
+  right: 127px;
 }
