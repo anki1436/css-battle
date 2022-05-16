@@ -29,4 +29,19 @@ function isAnagram(first, second) {
 console.log(isAnagram(firstWord, secondWord));// true);
 
 
+var y = 1;
+if (function f() {}) {
+    console.log(typeof f);
 
+//   y += typeof f;
+//   console.log(y);
+
+
+}
+
+var x=3;
+
+ function add(){
+    console.log(typeof add);
+}
+add()
